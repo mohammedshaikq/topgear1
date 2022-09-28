@@ -37,11 +37,17 @@ If credentials are valid then send a cookie name with unique id created during i
 Browser saves the cookie and send this in every further request
 
 NATed Environment
+
 ISE 1 - login check for valid credentials
+
 If credentials are valid then send a cookie name with unique id created during installation, this ID will be unique to only ISE1
+
 ISE 2 - login check for valid credentials
+
 If credentials are valid then send a cookie name with unique id created during installation, this ID will be unique to only ISE2
+
 Browser will send the cookie of both Instance to ISE server, ISE1 cookie will not be overridden by ISE2 cookie
+
 Now, both the instance can work simultaneously in NATed environment.
 
 
